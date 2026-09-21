@@ -1,0 +1,1 @@
+const WA="966574203528";const msg="مرحبًا تمام، أحتاج خدمة وأبغى أرسل تفاصيل الطلب.";document.querySelectorAll("[data-wa]").forEach(a=>a.href="https://wa.me/"+WA+"?text="+encodeURIComponent(msg));document.getElementById("year").textContent=new Date().getFullYear();
